@@ -1,3 +1,97 @@
+
+
+.erica {
+  display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.name {
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif; cursive;
+  margin: 0;
+}
+
+
+.headings {
+ font-family: 'Raleway', sans-serif;
+
+  font-size: 4em;
+  background: indianred;
+  padding: 25px;
+  outline: 2px solid white;
+  outline-offset: -10px;
+  text-align: center;
+  color: white
+}
+.bodypictures {
+  max-width: 240px;
+  padding: 30px;
+ }
+#wrapper {
+  display: flex; 
+  flex-flow: wrap nowrap;
+  justify-content: space-around; 
+}
+
+#wrapper img {
+  max-width: 30%;
+  align-self: center;
+}
+header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/eb/f8/e9/ebf8e944d28f3fbdab6ef113eee630e4.jpg");
+  outline: 2px solid white;
+  outline-offset: -10px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+}
+
+header img {
+  max-width: 30%;
+  margin: 4.2%;
+  padding:3px;
+   border:1px solid white;
+  
+}
+
+.aboutme {
+  max-width: 200px;
+  padding: 75px;
+ float: left;
+}
+
 p {
-    color: red;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  max-width: 80%;
+}
+.navigation {
+  display: flex;
+  position: fixed;
+  top: 10px;
+  right:15px;
+  list-style: none;
+margin-top: 0;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: indianred;
+ 
 }
